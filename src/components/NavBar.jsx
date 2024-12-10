@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from '../components/ui/button'; // Adjust path
+import { Button } from './ui/button'; // Adjust path
 import { MenuIcon, XIcon } from 'lucide-react';
 
 export default function Navbar({ isMenuOpen, toggleMenu }) {

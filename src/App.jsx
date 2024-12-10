@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import AppRoutes from './AppRoutes'; // Import routes
 import Footer from './components/Footer'; // Import Footer
-import Navbar from './components/Navbarar';
+import Navbar from './components/Navbar';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
